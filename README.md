@@ -16,3 +16,5 @@ Azure Storage Account: Serves as the data lake, organized into three layers—ra
 Azure Databricks: Handles data transformation and computation using PySpark.
 Azure Synapse Analytics: Functions as the data warehouse, enabling fast querying and BI integration.
 Each resource was configured with appropriate Identity and Access Management (IAM) roles to ensure secure and seamless connectivity across the environment.
+
+![image](https://github.com/user-attachments/assets/17acbd0e-2702-45cc-a216-5aebe4d0a086)
