@@ -19,3 +19,13 @@ Azure Synapse Analytics: Functions as the data warehouse, enabling fast querying
 Each resource was configured with appropriate Identity and Access Management (IAM) roles to ensure secure and seamless connectivity across the environment.
 
 ![image](https://github.com/user-attachments/assets/17acbd0e-2702-45cc-a216-5aebe4d0a086)
+
+Step 2: Implementing the Data Pipeline Using ADF 🚀 Azure Data Factory (ADF) acts as the central orchestrator for the entire data pipeline.
+
+Dynamic Copy Activity: ADF uses an HTTP connector to fetch data directly from GitHub and loads it into the bronze layer of the Azure Storage Account.
+
+Parameterized Pipeline: Parameters were incorporated into the pipeline design, allowing flexibility and easy adaptation to changes in the data source or file structure.
+
+This setup ensures a reusable and scalable approach to data ingestion.
+
+![image](https://github.com/user-attachments/assets/dc0c5e4e-744b-41e5-95d8-3b73a0d4800f)
