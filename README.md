@@ -29,3 +29,13 @@ Parameterized Pipeline: Parameters were incorporated into the pipeline design, a
 This setup ensures a reusable and scalable approach to data ingestion.
 
 ![image](https://github.com/user-attachments/assets/dc0c5e4e-744b-41e5-95d8-3b73a0d4800f)
+
+The raw data is now securely stored and ready for transformation.
+
+![image](https://github.com/user-attachments/assets/9d091de3-fd1b-4169-a157-b58c2d951873)
+
+Step 3: Data Transformation with Azure Databricks 🔄 Using Azure Databricks, the raw data from the bronze container was transformed into a structured format.
+
+Key Steps: Cluster Setup: A Databricks cluster was created to process the data efficiently. Data Lake Integration: Databricks connected to Azure Storage to access the raw data.
+
+
