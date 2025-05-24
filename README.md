@@ -9,6 +9,7 @@ Ingests data from external sources
 Performs data transformation and cleaning using PySpark
 Stores the processed data in a structured format for seamless analysis
 Supports interactive and insightful visualizations to drive informed decision-making
+
 Step 1: Setting Up the Azure Environment ⚙️ The first step involves provisioning the necessary Azure services to support the data pipeline:
 
 Azure Data Factory (ADF): Orchestrates and automates data workflows.
