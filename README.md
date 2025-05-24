@@ -84,3 +84,31 @@ Designed dashboards and reports to present actionable insights to stakeholders.
 
 ![image](https://github.com/user-attachments/assets/feaf5ab0-f268-4280-935d-f5987d48d838)
 
+🗂️ Project Breakdown
+
+1️⃣ Data Ingestion (Bronze Layer)
+
+Extracted data from an external HTTP API using Azure Data Factory.
+Stored the raw data in Azure Data Lake Storage Gen2, following a structured folder hierarchy.
+2️⃣ Data Transformation (Silver Layer)
+
+Established a secure connection between Azure Data Lake and Azure Databricks using Microsoft Entra ID (App ID, Secret, Tenant ID).
+Utilized PySpark to clean, filter, and transform the ingested raw data.
+Implemented incremental loading using SCD Type 1 (Upsert logic) to improve efficiency and handle data updates.
+3️⃣ Data Serving (Gold Layer)
+
+Loaded the transformed data into Azure Synapse Analytics using OPENROWSET() and external tables.
+Enabled fast and structured access for analytical queries and downstream reporting.
+4️⃣ Reporting and Dashboard
+
+Connected Power BI to Azure Synapse Analytics.
+Designed a real-time, interactive dashboard to present actionable business insights.
+💡 Key Learnings
+
+Practical application of the Medallion Architecture in a real-world scenario.
+Secure integration across Azure services using managed identities and service principals.
+Efficient handling of incremental data loads for scalable ETL workflows.
+Techniques for query optimization in Synapse with external tables and views.
+Delivering impactful insights through Power BI dashboards.
+
+✅ This end-to-end solution demonstrates how modern, data-driven organizations can harness the power of Azure to transform raw data into valuable business intelligence, enabling smarter and faster decision-making.
