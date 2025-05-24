@@ -2,3 +2,17 @@ Using Azure to Build a Whole Data Engineering Pipeline ✨ In this blog, I outli
 
 
 ![image](https://github.com/user-attachments/assets/62fb32d9-8921-4bb4-b52a-648ff1aa3c90)
+
+📌 Project Objective The goal of this project is to develop a scalable, secure, and efficient data pipeline that:
+
+Ingests data from external sources
+Performs data transformation and cleaning using PySpark
+Stores the processed data in a structured format for seamless analysis
+Supports interactive and insightful visualizations to drive informed decision-making
+Step 1: Setting Up the Azure Environment ⚙️ The first step involves provisioning the necessary Azure services to support the data pipeline:
+
+Azure Data Factory (ADF): Orchestrates and automates data workflows.
+Azure Storage Account: Serves as the data lake, organized into three layers—raw (bronze), transformed (silver), and curated (gold).
+Azure Databricks: Handles data transformation and computation using PySpark.
+Azure Synapse Analytics: Functions as the data warehouse, enabling fast querying and BI integration.
+Each resource was configured with appropriate Identity and Access Management (IAM) roles to ensure secure and seamless connectivity across the environment.
