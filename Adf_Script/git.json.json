@@ -12,7 +12,7 @@
     
     {
         "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Product_Subcategories.csv",
-        "p_sink_folder" : "Product_Subcategories",
+        "p_sink_folder" : "AdventureWorks_Product_Subcategories",
         "p_sink_file" : "Product_Subcategories.csv"
     },
     {
@@ -27,8 +27,8 @@
     },
     {
         "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Sales_2015.csv",
-        "p_sink_folder" : "Sales_2015",
-        "p_sink_file" : "AdventureWorks_Sales_2015.csv"
+        "p_sink_folder" : "AdventureWorks_Sales_2015",
+        "p_sink_file" : "Sales_2015.csv"
     },
     {
         "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Sales_2016.csv",
